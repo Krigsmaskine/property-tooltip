@@ -8,4 +8,5 @@ The default tooltips are defined by a journalEntry in a compendium named Propert
 
 ## Changelog
 
-**1.0** First release.
+###1.0### 
+Initial release.
