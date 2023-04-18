@@ -1,0 +1,5 @@
+/* Don't use !important. I'm excepted. */
+.my-special-tooltip {
+	text-align: left !important;
+	word-break: break-word !important;
+}

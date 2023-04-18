@@ -1,7 +1,7 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
+  "id": "property-tooltip",
+  "title": "Property Tooltip",
+  "description": "Provides a simple way to show customizable tooltips when hovering over the properties of weapons in dnd5e.",
   "version": "#{VERSION}#",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
@@ -12,21 +12,25 @@
   },
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "Krig",
+      "discord": "Krigsmaskine#8165"
     }
   ],
   "relationships": {
-    "systems": [],
+    "systems": [{
+      "id": "dnd5e",
+      "type": "system",
+      "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+      "compatibility": {
+        "verified": "2.1.5"
+      }
+    }],
     "requires": []
   },
   "esmodules": [
     "scripts/module.js"
   ],
-  "scripts": [
-    "scripts/lib/lib.js"
-  ],
+  "scripts": [],
   "styles": [
     "styles/module.css"
   ],
@@ -42,10 +46,15 @@
   "download": "#{DOWNLOAD}#",
   "license": "LICENSE",
   "readme": "README.md",
-  "media": [
+  "packs": [
     {
-      "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
+    "name": "property tooltip",
+    "label": "Property Tooltip",
+    "path": "packs/property-tooltip.db",
+    "type": "JournalEntry",
+    "module": "property-tooltip",
+    "entity": "JournalEntry",
+    "system": "dnd5e"
     }
   ]
 }
