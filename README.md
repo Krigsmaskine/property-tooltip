@@ -8,5 +8,8 @@ The default tooltips are defined by a journalEntry in a compendium named Propert
 
 ## Changelog
 
-###1.0### 
+### 1.0
 Initial release.
+
+## Thanks to
+Foundry's community. Particular thanks to those in #module-development on the Discord. If you ever doubt you could develop a module, I suggest giving it a shot and asking for help if stuck. I have yet to regret it.
