@@ -14,5 +14,5 @@ export function registerSettings() {
             }
         }
     });
+    game.tooltip = new TooltipManager();
 };
-
