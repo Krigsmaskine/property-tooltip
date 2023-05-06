@@ -1,6 +1,6 @@
 # Property Tooltip
 
-Property Tooltip provides tooltips for (currently) weapon properties in dnd5e. When editing the weapon, you will see tooltips when hovering over the different properties.
+Property Tooltip provides tooltips for weapon properties in dnd5e. When editing the weapon, you will see tooltips when hovering over the different properties.
 
 ![image](https://user-images.githubusercontent.com/39592771/232679143-9917a85d-c461-4892-bd26-27ba57cbc4d7.png)
 
